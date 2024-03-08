@@ -29,7 +29,6 @@ public class Bullets : MonoBehaviourPunCallbacks, IPunObservable
         else
         {
            movePosition = (Vector3)stream.ReceiveNext();
-           //transform.position = (Vector3)stream.ReceiveNext();
         }
     }
 

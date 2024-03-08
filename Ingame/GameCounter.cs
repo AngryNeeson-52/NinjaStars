@@ -6,6 +6,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// 게임 매니저, 변수 관리 및 이벤트 발생
+
 public class GameCounter : MonoBehaviourPunCallbacks
 {
     public static GameCounter instance;

@@ -4,6 +4,8 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
+//플레이어 스텟 변동 시간
+
 public class StatsPick : MonoBehaviour
 {
     GameCounter GC;

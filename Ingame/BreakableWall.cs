@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//총알에 부서지는 오브젝트
+
 public class BreakableWall : MonoBehaviourPunCallbacks
 {
     [SerializeField]

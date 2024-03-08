@@ -33,7 +33,7 @@ public class PlayerControl : MonoBehaviourPunCallbacks
     WaitForSeconds waittime = new WaitForSeconds(0.1f);
     WaitForSeconds waittime2 = new WaitForSeconds(0.5f);
 
-    void Awake() // 주인 확인 후 기본 설정
+    void Awake() // 기본 설정
     {
         if (photonView.IsMine)
         {
@@ -46,7 +46,8 @@ public class PlayerControl : MonoBehaviourPunCallbacks
             namae.color = Color.red;
         }
     }
-    private void Start()
+
+    private void Start() // 소유가 아닐 시 비활성화
     {
         GC = GameCounter.instance;
         BP = BulletPool.bulletinstance;
